@@ -1,0 +1,19 @@
+[package]
+name = "changeme"
+description = "lib/bin template"
+version = "0.1.0"
+authors = ["ElectronicPanopticon <gaoler@electronicpanopticon.com>"]
+edition = "2018"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "changemelib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "changeme"
+path = "src/main.rs"
+
+[dependencies]
