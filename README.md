@@ -23,6 +23,13 @@ given the lib in your `Cargo.toml` file:
 use changemelib::*;
 ```
 
+## Clippy
+
+This template includes a
+[rust-clippy-check](https://github.com/marketplace/actions/rust-clippy-check)
+GitHub Action. You can adjust the threshold it fails on in the
+`./github/workflow/rust.yml` file.
+
 ## Using the GitHub CLI
 
 With the [GitHub CLI](https://cli.github.com/) you can create a respository

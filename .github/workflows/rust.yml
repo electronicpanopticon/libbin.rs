@@ -26,4 +26,7 @@ jobs:
       - uses: actions-rs/clippy-check@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          # if you want the build job to fail when encountering warnings, use
+          # - cargo clippy -- -D warnings
+          # in order to also check tests and non-default crate features, use
           args: --all-targets --all-features -- -D warnings
