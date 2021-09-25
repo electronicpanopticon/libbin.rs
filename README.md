@@ -23,6 +23,10 @@ given the lib in your `Cargo.toml` file:
 use changemelib::*;
 ```
 
+## Dependencies
+
+* [clap - Command Line Argument Parser for Rust](https://github.com/clap-rs/clap)
+
 ## Clippy
 
 This template includes a
