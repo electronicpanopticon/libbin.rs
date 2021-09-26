@@ -8,18 +8,19 @@ fn get_matches() -> ArgMatches {
         .author(crate_authors!())
         .license(crate_license!())
         .about(PKG_DESCRIPTION)
-        .arg(Arg::new("name")
-            .short('n')
-            .long("name")
-            .about("Greets someone by name")
-            .takes_value(true)
-            .value_name("NAME")
-            .default_value("world"))
+        .arg(
+            Arg::new("name")
+                .short('n')
+                .long("name")
+                .about("Greets someone by name")
+                .takes_value(true)
+                .value_name("NAME")
+                .default_value("World"),
+        )
         .get_matches()
 }
 
 fn main() {
-
     let matches = get_matches();
 
     if let Some(i) = matches.value_of("name") {
