@@ -1,5 +1,5 @@
-pub fn id() -> String {
-    "World".to_string()
+pub fn greeting(name: String) -> String {
+    format!("Hello, {}!", name)
 }
 
 #[cfg(test)]
@@ -7,7 +7,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn id_test() {
-        assert_eq!("World".to_string(), id());
+    fn greeting_test() {
+        assert_eq!("Hello, World!".to_string(), greeting("World".to_string()));
     }
 }
