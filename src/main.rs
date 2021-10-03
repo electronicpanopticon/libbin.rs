@@ -16,14 +16,16 @@ fn get_matches() -> ArgMatches {
                 .takes_value(true)
                 .value_name("NAME")
                 .default_value("World"),
-        )
+        ).arg("-b, --boop 'Go boop.'")
         .get_matches()
 }
 
 fn main() {
     let matches = get_matches();
 
-    if let Some(i) = matches.value_of("name") {
+    if matches.is_present("boop") {
+        println!("{}", changemelib::boop());
+    } else if let Some(i) = matches.value_of("name") {
         println!("{}", changemelib::greeting(i.to_string()));
     }
 }

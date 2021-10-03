@@ -1,3 +1,7 @@
+pub fn boop() -> String {
+    "Boop!".to_string()
+}
+
 pub fn greeting(name: String) -> String {
     format!("Hello, {}!", name)
 }
