@@ -43,13 +43,15 @@ locally and on GitHub with a single command:
 $❯ gh repo create foobinlib --template  https://github.com/electronicpanopticon/libbin.rs.git
 ```
 
-## TODO
+## etc...
 
-Make this template unnecessary by adding the functionality to
-[`cargo new`](https://doc.rust-lang.org/cargo/guide/creating-a-new-project.html).
-Right now you get the following error:
-
-```
-$❯ cargo new foo --bin --lib
-error: can't specify both lib and binary outputs
-```
+* Includes a
+  [rust-toolchain](https://rust-lang.github.io/rustup/overrides.html#the-toolchain-file)
+  file to specify specific versions of rust in rustup.
+* Includes a
+  [.cargo/config.toml file](https://doc.rust-lang.org/cargo/reference/config.html)
+  specifying a Rust version of at least 1.54.0 because of the use of
+  [Clap](https://github.com/clap-rs/clap).
+* Includes a
+  [clippy.yml](https://github.com/rust-lang/rust-clippy#user-content-configuration)
+  config file to do custom configurations.
