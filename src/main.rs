@@ -16,7 +16,8 @@ fn get_matches() -> ArgMatches {
                 .takes_value(true)
                 .value_name("NAME")
                 .default_value("World"),
-        ).arg("-b, --boop 'Go boop.'")
+        )
+        .arg("-b, --boop 'Go boop.'")
         .get_matches()
 }
 
