@@ -43,6 +43,22 @@ locally and on GitHub with a single command:
 $❯ gh repo create foobinlib --template  https://github.com/electronicpanopticon/libbin.rs.git
 ```
 
+## Running 
+
+```
+$❯ cargo run -- -b
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/changeme -b`
+Boop!
+```
+
+```
+$❯ cargo run -- -n "my friend"
+    Finished dev [unoptimized + debuginfo] target(s) in 0.01s
+     Running `target/debug/changeme -n 'my friend'`
+Hello, my friend!
+```
+
 ## etc...
 
 * Includes a
@@ -54,4 +70,7 @@ $❯ gh repo create foobinlib --template  https://github.com/electronicpanoptico
   [Clap](https://github.com/clap-rs/clap).
 * Includes a
   [clippy.yml](https://github.com/rust-lang/rust-clippy#user-content-configuration)
-  config file to do custom configurations.
+  file to do custom linting configurations.
+* Includes a
+  [.rustfmt.toml](https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=)
+  file to configure formatting.
