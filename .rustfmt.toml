@@ -1,0 +1,72 @@
+# //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+#                      r u s t f m t   -   C O N F I G
+# //\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//\\//
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#array_width
+# array_width = 60
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#attr_fn_like_width
+# attr_fn_like_width = 70
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#chain_width
+# chain_width = 60
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#disable_all_formatting
+# disable_all_formatting = false
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#fn_args_layout
+# fn_args_layout = Tall
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#fn_call_width
+# fn_call_width = 60
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#force_explicit_abi
+# force_explicit_abi = true
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#hard_tabs
+# hard_tabs = false
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#match_arm_leading_pipes
+# match_arm_leading_pipes = Never
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#match_block_trailing_comma
+# match_block_trailing_comma = false
+match_block_trailing_comma = true
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#max_width
+# max_width = 100
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#merge_derives
+# merge_derives = true
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#newline_style
+# newline_style = Auto
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#remove_nested_parens
+# remove_nested_parens = true
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#reorder_imports
+# reorder_imports = true
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#single_line_if_else_max_width
+# single_line_if_else_max_width = 50
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#struct_lit_width
+# struct_lit_width = 18
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#struct_variant_width
+# struct_variant_width = 35
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#tab_spaces
+# tab_spaces = 4
+tab_spaces = 2
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#use_field_init_shorthand
+# use_field_init_shorthand = false
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#use_small_heuristics
+# use_small_heuristics = Default
+
+# https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=#use_try_shorthand
+# use_try_shorthand = false
+use_try_shorthand = true
