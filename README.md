@@ -70,15 +70,11 @@ Hello, my friend!
   [Clap](https://github.com/clap-rs/clap).
 * Includes a
   [clippy.yml](https://github.com/rust-lang/rust-clippy#user-content-configuration)
-<<<<<<< Updated upstream
   file to do custom linting configurations.
 * Includes a
   [.rustfmt.toml](https://rust-lang.github.io/rustfmt/?version=v1.4.38&search=)
   file to configure formatting.
-=======
-  config file to do custom configurations.
 
 ## Useful Info
 
 * [Cheap tricks for high-performance Rust](https://deterministic.space/high-performance-rust.html)
->>>>>>> Stashed changes
